@@ -6,369 +6,627 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>363</width>
+    <height>452</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QFrame" name="frame">
+   <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>10</y>
-      <width>281</width>
-      <height>441</height>
+      <x>-1</x>
+      <y>-1</y>
+      <width>361</width>
+      <height>411</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-color: rgb(72, 72, 108);</string>
+     <string notr="true">QWidget#widget{
+	background-color:qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+	border-radius: 20px;
+}</string>
     </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QWidget" name="widget" native="true">
+    <widget class="QWidget" name="gridLayoutWidget">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>0</x>
+       <y>130</y>
+       <width>361</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" columnminimumwidth="0,0,0,0">
+      <item row="2" column="2">
+       <widget class="QPushButton" name="btnTan">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>tan</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="btnProm">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>P</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="btnCos">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>cos</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="btnSen">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>sen</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="3">
+       <widget class="QPushButton" name="btnMulti">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>*</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0">
+       <widget class="QPushButton" name="btn7">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="3">
+       <widget class="QPushButton" name="btnResta">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="3">
+       <widget class="QPushButton" name="btnDivision">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="2">
+       <widget class="QPushButton" name="btn6">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="2">
+       <widget class="QPushButton" name="btn9">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="0">
+       <widget class="QPushButton" name="btnBorrar">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>C</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QPushButton" name="btn2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QPushButton" name="btn1">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="3">
+       <widget class="QPushButton" name="btnSuma">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="2">
+       <widget class="QPushButton" name="btn3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0">
+       <widget class="QPushButton" name="btn4">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QPushButton" name="btn5">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="1">
+       <widget class="QPushButton" name="btn0">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="2">
+       <widget class="QPushButton" name="btnIgual">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="1">
+       <widget class="QPushButton" name="btn8">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="btnMax">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>max</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="btnMin">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>min</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_prev">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
        <y>10</y>
-       <width>221</width>
-       <height>31</height>
+       <width>341</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(159, 159, 159);</string>
+      <string notr="true">border-radius: 10px;
+background-color: rgb(185, 185, 185, 80);
+font: 16pt &quot;Copperplate Gothic Bold&quot;</string>
+     </property>
+     <property name="text">
+      <string/>
      </property>
     </widget>
-    <widget class="QWidget" name="widget_2" native="true">
+    <widget class="QLabel" name="label_result">
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>50</y>
-       <width>171</width>
-       <height>41</height>
+       <x>10</x>
+       <y>70</y>
+       <width>341</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(170, 170, 170);</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>110</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
+      <string notr="true">border-radius: 10px;
+background-color: rgb(185, 185, 185, 80);
+font: 16pt &quot;Copperplate Gothic Bold&quot;;</string>
      </property>
      <property name="text">
-      <string>7</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>110</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>8</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_3">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>110</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>9</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_4">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>110</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>+</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_5">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>160</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>4</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_6">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>160</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_7">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>160</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>6</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_8">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>160</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>-</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_9">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>210</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>1</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_10">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>210</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>2</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_11">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>210</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>3</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_12">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>210</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>/</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_13">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>260</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>+/-</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_14">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>260</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_15">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>260</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>C</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_16">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>260</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>*</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_17">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>310</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Sen</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_18">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>310</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Cos</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_19">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>310</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Tan</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_20">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>350</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Max</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_21">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>350</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Min</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_22">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>350</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>[]</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_23">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>350</y>
-       <width>41</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>=</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_24">
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>400</y>
-       <width>75</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Borrar</string>
+      <string/>
      </property>
     </widget>
    </widget>
@@ -378,8 +636,8 @@ background-color: rgb(72, 72, 108);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>22</height>
+     <width>363</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>

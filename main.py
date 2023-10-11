@@ -5,6 +5,7 @@ from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLineEdit, QLabel, QComboBox
 from conversor_texto import ConversionNumeroTexto
 from operaciones import Operaciones
+from decimal import Decimal
 
 class MiVentana(QMainWindow):
 

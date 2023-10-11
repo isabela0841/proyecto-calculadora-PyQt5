@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>363</width>
+    <width>361</width>
     <height>452</height>
    </rect>
   </property>
@@ -38,505 +38,7 @@
        <height>271</height>
       </rect>
      </property>
-     <layout class="QGridLayout" name="gridLayout" columnminimumwidth="0,0,0,0">
-      <item row="2" column="2">
-       <widget class="QPushButton" name="btnTan">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 18pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>tan</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="3">
-       <widget class="QPushButton" name="btnProm">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 18pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>P</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <widget class="QPushButton" name="btnCos">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 18pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>cos</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <widget class="QPushButton" name="btnSen">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 18pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>sen</string>
-        </property>
-       </widget>
-      </item>
-      <item row="16" column="3">
-       <widget class="QPushButton" name="btnMulti">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>*</string>
-        </property>
-       </widget>
-      </item>
-      <item row="16" column="0">
-       <widget class="QPushButton" name="btn7">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>7</string>
-        </property>
-       </widget>
-      </item>
-      <item row="15" column="3">
-       <widget class="QPushButton" name="btnResta">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>-</string>
-        </property>
-       </widget>
-      </item>
-      <item row="17" column="3">
-       <widget class="QPushButton" name="btnDivision">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>/</string>
-        </property>
-       </widget>
-      </item>
-      <item row="15" column="2">
-       <widget class="QPushButton" name="btn6">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>6</string>
-        </property>
-       </widget>
-      </item>
-      <item row="16" column="2">
-       <widget class="QPushButton" name="btn9">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>9</string>
-        </property>
-       </widget>
-      </item>
-      <item row="17" column="0">
-       <widget class="QPushButton" name="btnBorrar">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>C</string>
-        </property>
-       </widget>
-      </item>
-      <item row="14" column="1">
-       <widget class="QPushButton" name="btn2">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>2</string>
-        </property>
-       </widget>
-      </item>
-      <item row="14" column="0">
-       <widget class="QPushButton" name="btn1">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>1</string>
-        </property>
-       </widget>
-      </item>
-      <item row="14" column="3">
-       <widget class="QPushButton" name="btnSuma">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>+</string>
-        </property>
-       </widget>
-      </item>
-      <item row="14" column="2">
-       <widget class="QPushButton" name="btn3">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>3</string>
-        </property>
-       </widget>
-      </item>
-      <item row="15" column="0">
-       <widget class="QPushButton" name="btn4">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>4</string>
-        </property>
-       </widget>
-      </item>
-      <item row="15" column="1">
-       <widget class="QPushButton" name="btn5">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>5</string>
-        </property>
-       </widget>
-      </item>
-      <item row="17" column="1">
-       <widget class="QPushButton" name="btn0">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>0</string>
-        </property>
-       </widget>
-      </item>
-      <item row="17" column="2">
-       <widget class="QPushButton" name="btnIgual">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>=</string>
-        </property>
-       </widget>
-      </item>
-      <item row="16" column="1">
-       <widget class="QPushButton" name="btn8">
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	background-color: transparent;
-	border-radius: 40px;
-	font: 24pt &quot;Copperplate Gothic Bold&quot;;
-}
-
-QPushButton:hover{
-	background-color: rgba(0,0,0,30);
-	Border-radius: 40px;
-}
-
-QPushButton:pressed{
-	background-color: rgba(0,0,0,60);
-	border-radius: 40px;
-}</string>
-        </property>
-        <property name="text">
-         <string>8</string>
-        </property>
-       </widget>
-      </item>
+     <layout class="QGridLayout" name="gridLayout" columnminimumwidth="0,0,0,0,0">
       <item row="1" column="3">
        <widget class="QPushButton" name="btnMax">
         <property name="enabled">
@@ -591,6 +93,630 @@ QPushButton:pressed{
         </property>
        </widget>
       </item>
+      <item row="16" column="1">
+       <widget class="QPushButton" name="btn8">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="2">
+       <widget class="QPushButton" name="btnIgual">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QPushButton" name="btn5">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="1">
+       <widget class="QPushButton" name="btn0">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="btnProm">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>P</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="btnTan">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>tan</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0">
+       <widget class="QPushButton" name="btn7">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="btnSen">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>sen</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="btnCos">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>cos</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="2">
+       <widget class="QPushButton" name="btn6">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="2">
+       <widget class="QPushButton" name="btn9">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QPushButton" name="btn1">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="0">
+       <widget class="QPushButton" name="btnBorrar">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>C</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QPushButton" name="btn2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="2">
+       <widget class="QPushButton" name="btn3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0">
+       <widget class="QPushButton" name="btn4">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btnOpen">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btnClose">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="4">
+       <widget class="QPushButton" name="btnResta">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="4">
+       <widget class="QPushButton" name="btnSuma">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="3">
+       <widget class="QPushButton" name="btnComa">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>,</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="3">
+       <widget class="QPushButton" name="btnPunto">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="3">
+       <widget class="QPushButton" name="btnMulti">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>*</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="3">
+       <widget class="QPushButton" name="btnDivision">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 24pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="4">
+       <widget class="QPushButton" name="btnDel">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: transparent;
+	border-radius: 40px;
+	font: 18pt &quot;Copperplate Gothic Bold&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgba(0,0,0,30);
+	Border-radius: 40px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(0,0,0,60);
+	border-radius: 40px;
+}</string>
+        </property>
+        <property name="text">
+         <string>DEL</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
     <widget class="QLabel" name="label_prev">
@@ -636,7 +762,7 @@ font: 16pt &quot;Copperplate Gothic Bold&quot;;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>363</width>
+     <width>361</width>
      <height>21</height>
     </rect>
    </property>

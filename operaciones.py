@@ -54,7 +54,10 @@ class Operaciones:
         return resultado
 
     def prome(self, lista):
-        resultado = sum(lista) / len(lista)
+        resultado = 0
+        for valor in lista:
+            resultado = resultado + int(valor)
+        resultado = resultado / len(lista)
         print(f"Promedio: {resultado}")
         return resultado
 
